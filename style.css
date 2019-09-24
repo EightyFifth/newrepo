@@ -70,13 +70,13 @@ a:hover {
   color: white;
   display: block;
   float: right;
-  vertical-align: top;
+  margin-top: 20px;
   text-align: center;
 }
 .city {
   font-size: 15px;
   margin: 0;
-  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 .temp {
   font-size: 15px;
@@ -85,6 +85,7 @@ a:hover {
 .weather {
   font-size: 15px;
   margin: 0;
+  font-style: italic;
 }
 .icon img{
   margin: 0;

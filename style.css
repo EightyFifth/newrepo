@@ -75,7 +75,7 @@ p {
   color: white;
 }
 .post-content p {
-
+  font-family: monospace;
 }
 #footer {
   background-color: rgba(0, 0, 0, 0.3);

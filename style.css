@@ -11,8 +11,8 @@ body, html {
 }
 #header {
   background-color: rgba(0, 0, 0, 0.3);
-  height: 150px;
-  line-height: 150px;
+  height: 100px;
+  line-height: 100px;
 }
 #header a {
   color: white;
@@ -24,7 +24,7 @@ body, html {
   color: #222;
 }
 #header-title {
-  display:block;
+  display: flex;
   float:left;
   font-size: 20px;
   font-weight: bold;
@@ -42,9 +42,46 @@ body, html {
   max-width: 1300px;
   margin: 0 auto;
 }
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.post-author img {
+  height: 107px;
+  width: 110px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.post-author span {
+  margin-left: 16px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+h1, h2, h3, h4 {
+  color: white;
+}
+p {
+  line-height: 1.5;
+}
+.about {
+  text-align: center;
+}
+.post-container:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.post {
+  color: white;
+}
+.post-content p {
+
+}
 #footer {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 005px 0;
+  line-height: 10px;
+  margin-bottom: 0;
 }
 .column {
   max-width: 300px;
@@ -70,7 +107,7 @@ a:hover {
   color: white;
   display: block;
   float: right;
-  margin-top: 20px;
+  margin-top: 50px;
   text-align: center;
 }
 .city {
@@ -90,35 +127,6 @@ a:hover {
 .icon img{
   margin: 0;
   border-radius: 50%;
-}
-.post, .about {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 60px 0;
-}
-.post-author img {
-  height: 67px;
-  width: 67px;
-  vertical-align: middle;
-  border-radius: 50%;
-}
-.post-author span {
-  margin-left: 16px;
-}
-h1, h2, h3, h4 {
-  color: white;
-}
-p {
-  line-height: 1.5;
-}
-.about {
-  text-align: center;
-}
-.post-container:nth-child(even) {
-  background-color: #f2f2f2;
-}
-.post {
-  color: white;
 }
 #particles-js {
   height: 100%;
